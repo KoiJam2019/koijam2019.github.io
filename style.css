@@ -163,7 +163,7 @@ dl, dt, dd, ol, ul, li {
 
 body {
 	line-height: 1.5;
-	color: #555;
+	color: #444;
 	font-family: 'Lato', sans-serif;
 }
 
@@ -192,7 +192,7 @@ h3,
 h4,
 h5,
 h6 {
-	color: #444;
+	color: #2D3142; /*EDIT*/
 	font-weight: 600;
 	line-height: 1.5;
 	margin: 0 0 30px 0;
@@ -406,11 +406,11 @@ span.middot {
 }
 
 .bgcolor,
-.bgcolor #header-wrap { background-color: #1ABC9C !important; }
+.bgcolor #header-wrap { background-color: #fff !important; } /*EDIT*/
 
-.color { color: #1ABC9C !important; }
+.color { color: #fff !important; } /*EDIT*/
 
-.border-color { border-color: #1ABC9C !important; }
+.border-color { border-color: #fff !important; } /*EDIT*/
 
 .nobg { background: none !important; }
 
@@ -3528,7 +3528,7 @@ body.stretched .container-fullwidth .breadcrumb { right: 60px !important; }
 #content {
 	position: relative;
 	overflow: hidden;
-	background-color: #FFF;
+	background-color: #4F5D75; /*EDIT*/
 }
 
 #content p { line-height: 1.8; }

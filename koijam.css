@@ -9,7 +9,7 @@
 /* Root Settings
 -----------------------------------------------------------------*/
 :root {
-	--themecolor:  				#0F66DD;
+	--themecolor:  				#4F5D75;
 	--themecolorrgb: 			25,102,221;
 
 	/* Header */
@@ -318,7 +318,7 @@ footer .list-unstyled li a,
 #header.dark:not(.transparent-header),
 #header:not(:hover) #header-wrap,
 #header.dark.sticky-header:not(.transparent-header) #header-wrap:not(.not-dark) {
-	background-color: var(--headerbg, #0F66DD);
+	background-color: var(--headerbg, #4F5D75); /*EDIT*/
 	border-bottom-color: rgba(255, 255, 255, .1);
 }
 
