@@ -94,11 +94,11 @@
 }
 
 .section-gradient {
-	background: var(--themecolor, #0F66DD);
-	background: -moz-linear-gradient(top, var(--themecolor, #0F66DD) 30%,#FFF 80%);
-	background: -webkit-linear-gradient(top, var(--themecolor, #0F66DD) 30%,#FFF 80%);
-	background: linear-gradient(to bottom, var(--themecolor, #0F66DD) 30%,#FFF 80%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0F66DD', endColorstr='#FFF',GradientType=0 );
+	background: var(--themecolor, #4F5D75); /*EDIT*/
+	background: -moz-linear-gradient(top, var(--themecolor, #4F5D75) 30%,#F9F9F9 80%); /*EDIT*/
+	background: -webkit-linear-gradient(top, var(--themecolor, #4F5D75) 30%,#F9F9F9 80%); /*EDIT*/
+	background: linear-gradient(to bottom, var(--themecolor, #4F5D75) 30%,#F9F9F9 80%); /*EDIT*/
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4F5D75', endColorstr='#F9F9F9',GradientType=0 ); /*EDIT*/
 }
 
 .svg-themecolor { fill: var(--themecolor, #0F66DD); }
