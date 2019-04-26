@@ -135,19 +135,19 @@ dl, dt, dd, ol, ul, li {
 }
 
 ::selection {
-	background: #1ABC9C;
+	background: #f05b25; /*EDIT*/
 	color: #FFF;
 	text-shadow: none;
 }
 
 ::-moz-selection {
-	background: #1ABC9C; /* Firefox */
+	background: #f05b25; /* Firefox */ /*EDIT*/
 	color: #FFF;
 	text-shadow: none;
 }
 
 ::-webkit-selection {
-	background: #1ABC9C; /* Safari */
+	background: #f05b25; /* Safari */ /*EDIT*/
 	color: #FFF;
 	text-shadow: none;
 }
@@ -169,7 +169,7 @@ body {
 
 a {
 	text-decoration: none !important;
-	color: #1ABC9C;
+	color: #f05b25; /*EDIT*/
 }
 
 a:hover { color: #222; }
@@ -224,7 +224,7 @@ h2 > span:not(.nocolor):not(.badge),
 h3 > span:not(.nocolor):not(.badge),
 h4 > span:not(.nocolor):not(.badge),
 h5 > span:not(.nocolor):not(.badge),
-h6 > span:not(.nocolor):not(.badge) { color: #1ABC9C; }
+h6 > span:not(.nocolor):not(.badge) { color: #f05b25; } /*EDIT*/
 
 p,
 pre,
@@ -6584,7 +6584,7 @@ body:not(.device-sm):not(.device-xs) .countdown.countdown-large.coming-soon .cou
 	font-size: 14px;
 	height: 40px;
 	line-height: 40px;
-	background-color: #1ABC9C;
+	background-color: #f05b25; /*EDIT*/
 	color: #FFF;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -6613,7 +6613,7 @@ body:not(.device-touch) .button {
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 }
 
-.button.button-dark:hover { background-color: #1ABC9C; }
+.button.button-dark:hover { background-color: #f05b25; } /*EDIT*/
 
 .button.button-mini {
 	padding: 0 14px;
