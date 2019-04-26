@@ -101,7 +101,7 @@
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4F5D75', endColorstr='#F9F9F9',GradientType=0 ); /*EDIT*/
 }
 
-.svg-themecolor { fill: var(--themecolor, #0F66DD); }
+.svg-themecolor { fill: var(--themecolor, #4F5D75); } /*EDIT*/
 
 .lightthemecolor {
 	background-color: rgba(var(--themecolorrgb), 0.08);
