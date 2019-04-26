@@ -1,7 +1,396 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Issa website</h1>
-<p>KoiJam YEAH</p>
+<html dir="ltr" lang="en-US">
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="SemiColonWeb" />
+
+	<!-- Stylesheets
+	============================================= -->
+	<link href="http://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/dark.css" type="text/css" />
+	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" href="css/animate.css" type="text/css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
+
+	<!-- Movers Demo Specific Stylesheet -->
+	<link rel="stylesheet" href="css/colors.php?color=0F66DD" type="text/css" /> <!-- Theme Color -->
+	<link rel="stylesheet" href="css/fonts.css" type="text/css" />
+	<link rel="stylesheet" href="koijam.css" type="text/css" />
+	<!-- / -->
+
+	<!-- DatePicker CSS -->
+	<link rel="stylesheet" href="css/components/datepicker.css" type="text/css" />
+
+	<meta name='viewport' content='initial-scale=1, viewport-fit=cover'>
+
+	<!-- Document Title
+	============================================= -->
+	<title>Movers Demo | Canvas</title>
+
+</head>
+
+<body class="stretched">
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper" class="clearfix">
+
+		<!-- Header
+		============================================= -->
+		<header id="header" class="sticky-style-2 dark">
+
+			<div class="container clearfix">
+
+				<!-- Logo
+				============================================= -->
+				<div id="logo" class="">
+					<a href="index.html" class="standard-logo" data-dark-logo="images/logo/logo-koijam-word.png"><img class="divcenter" src="images/logo/logo-koijam-word.png" alt="Canvas Logo"></a>
+					<a href="index.html" class="retina-logo" data-dark-logo="images/logo/logo-koijam-word@2x.png"><img class="divcenter" src="images/logo/logo-koijam-word@2x.png" alt="Canvas Logo"></a>
+				</div><!-- #logo end -->
+
+				<ul class="header-extras">
+					
+                    <!--
+                    <li>
+						<i class="i-plain icon-call nomargin"></i>
+						<div class="he-text t400 text-white-50">
+							Call Us:
+							<span><a href="tel:+111 22-33-44" class="text-white t500">+111 22-33-44</a></span>
+						</div> 
+					</li>
+                    -->
+					<li>
+						<i class="i-plain icon-line2-envelope nomargin"></i>
+						<div class="he-text t400 text-white-50">
+							Email Us:
+							<span><a href="mailto:contact@koijam.be" target="_top" class="text-white t500">contact@koijam.be</a></span>
+						</div>
+					</li>
+				</ul>
+
+			</div>
+
+			<div id="header-wrap">
+
+				<!-- Primary Navigation
+				============================================= -->
+				<nav id="primary-menu" class="style-2 with-arrows  not-dark">
+
+					<div class="container clearfix">
+
+						<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+
+						<ul class="one-page-menu" data-easing="easeInOutExpo" data-speed="1100" data-offset="65">
+							<li class="current"><a href="#" data-href="#wrapper"><div>Home</div></a></li>
+							<li><a href="#" data-href="#section-about"><div>About Us</div></a></li>
+							<li><a href="#" data-href="#section-projects"><div>Projects</div></a>
+							<li><a href="#" data-href="#section-team"><div>Team</div></a></li>
+							<li><a href="#" data-href="#section-contact"><div>Contact</div></a></li>
+						</ul>
+                        
+					</div>
+
+				</nav><!-- #primary-menu end -->
+
+			</div>
+
+		</header><!-- #header end -->
+
+		<!-- Slider
+		============================================= -->
+		<section id="slider" class="slider-element bgcolor clearfix" style="height: auto; padding: 60px 0; background: url('images/bg-2.png') no-repeat center center / 100% 100%;">
+
+			<div class="container" style="z-index: 2">
+				<div class="center">
+                    <img src="images/logo/koijam-logo-500.png" alt="Image 1" class="align-self-end mb-4">
+                    <h2 class="h2 t600 mb-2">KoiJam is a game studio.</h2>
+					<p>We build innovative and fun software.</p>
+				</div>
+                
+                
+				
+                
+			</div>
+
+			<div class="svg-separator">
+				<div>
+					<svg preserveAspectRatio="xMidYMax meet" viewBox="0 0 1600 100" style="" data-height="100">
+						<path style="opacity: 1;fill: rgba(255,255,255,0.75);" d="M1040,56c0.5,0,1,0,1.6,0c-16.6-8.9-36.4-15.7-66.4-15.7c-56,0-76.8,23.7-106.9,41C881.1,89.3,895.6,96,920,96
+						C979.5,96,980,56,1040,56z"></path> <path style="opacity: 1;fill: rgba(255,255,255,0.75);" d="M1699.8,96l0,10H1946l-0.3-6.9c0,0,0,0-88,0s-88.6-58.8-176.5-58.8c-51.4,0-73,20.1-99.6,36.8 c14.5,9.6,29.6,18.9,58.4,18.9C1699.8,96,1699.8,96,1699.8,96z"></path> <path style="opacity: 1;fill: rgba(255,255,255,0.75);" d="M1400,96c19.5,0,32.7-4.3,43.7-10c-35.2-17.3-54.1-45.7-115.5-45.7c-32.3,0-52.8,7.9-70.2,17.8 c6.4-1.3,13.6-2.1,22-2.1C1340.1,56,1340.3,96,1400,96z"></path> <path style="opacity: 1;fill: rgba(255,255,255,0.75);" d="M320,56c6.6,0,12.4,0.5,17.7,1.3c-17-9.6-37.3-17-68.5-17c-60.4,0-79.5,27.8-114,45.2 c11.2,6,24.6,10.5,44.8,10.5C260,96,259.9,56,320,56z"></path> <path style="opacity: 1;fill: rgba(255,255,255,0.75);" d="M680,96c23.7,0,38.1-6.3,50.5-13.9C699.6,64.8,679,40.3,622.2,40.3c-30,0-49.8,6.8-66.3,15.8 c1.3,0,2.7-0.1,4.1-0.1C619.7,56,620.2,96,680,96z"></path> <path style="opacity: 1;fill: rgba(255,255,255,0.75);" d="M-40,95.6c28.3,0,43.3-8.7,57.4-18C-9.6,60.8-31,40.2-83.2,40.2c-14.3,0-26.3,1.6-36.8,4.2V106h60V96L-40,95.6
+						z"></path>
+						<path style="opacity: 1;fill: rgba(255,255,255,0.3);;" d="M504,73.4c-2.6-0.8-5.7-1.4-9.6-1.4c-19.4,0-19.6,13-39,13c-19.4,0-19.5-13-39-13c-14,0-18,6.7-26.3,10.4 C402.4,89.9,416.7,96,440,96C472.5,96,487.5,84.2,504,73.4z"></path> <path style="opacity: 1;fill: rgba(255,255,255,0.3);;" d="M1205.4,85c-0.2,0-0.4,0-0.6,0c-19.5,0-19.5-13-39-13s-19.4,12.9-39,12.9c0,0-5.9,0-12.3,0.1 c11.4,6.3,24.9,11,45.5,11C1180.6,96,1194.1,91.2,1205.4,85z"></path> <path style="opacity: 1;fill: rgba(255,255,255,0.3);;" d="M1447.4,83.9c-2.4,0.7-5.2,1.1-8.6,1.1c-19.3,0-19.6-13-39-13s-19.6,13-39,13c-3,0-5.5-0.3-7.7-0.8 c11.6,6.6,25.4,11.8,46.9,11.8C1421.8,96,1435.7,90.7,1447.4,83.9z"></path> <path style="opacity: 1;fill: rgba(255,255,255,0.3);;" d="M985.8,72c-17.6,0.8-18.3,13-37,13c-19.4,0-19.5-13-39-13c-18.2,0-19.6,11.4-35.5,12.8 c11.4,6.3,25,11.2,45.7,11.2C953.7,96,968.5,83.2,985.8,72z"></path> <path style="opacity: 1;fill: rgba(255,255,255,0.3);;" d="M743.8,73.5c-10.3,3.4-13.6,11.5-29,11.5c-19.4,0-19.5-13-39-13s-19.5,13-39,13c-0.9,0-1.7,0-2.5-0.1 c11.4,6.3,25,11.1,45.7,11.1C712.4,96,727.3,84.2,743.8,73.5z"></path> <path style="opacity: 1;fill: rgba(255,255,255,0.3);;" d="M265.5,72.3c-1.5-0.2-3.2-0.3-5.1-0.3c-19.4,0-19.6,13-39,13c-19.4,0-19.6-13-39-13 c-15.9,0-18.9,8.7-30.1,11.9C164.1,90.6,178,96,200,96C233.7,96,248.4,83.4,265.5,72.3z"></path> <path style="opacity: 1;fill: rgba(255,255,255,0.3);;" d="M1692.3,96V85c0,0,0,0-19.5,0s-19.6-13-39-13s-19.6,13-39,13c-0.1,0-0.2,0-0.4,0c11.4,6.2,24.9,11,45.6,11 C1669.9,96,1684.8,96,1692.3,96z"></path> <path style="opacity: 1;fill: rgba(255,255,255,0.3);;" d="M25.5,72C6,72,6.1,84.9-13.5,84.9L-20,85v8.9C0.7,90.1,12.6,80.6,25.9,72C25.8,72,25.7,72,25.5,72z"></path>
+						<path style="fill: rgb(255, 255, 255);" d="M-40,95.6C20.3,95.6,20.1,56,80,56s60,40,120,40s59.9-40,120-40s60.3,40,120,40s60.3-40,120-40s60.2,40,120,40s60.1-40,120-40s60.5,40,120,40s60-40,120-40s60.4,40,120,40s59.9-40,120-40s60.3,40,120,40s60.2-40,120-40s60.2,40,120,40s59.8,0,59.8,0l0.2,143H-60V96L-40,95.6z"></path>
+					</svg>
+					<div style="height: 150px;"></div>
+				</div>
+			</div>
+
+		</section>
+
+		<!-- Content
+		============================================= -->
+		<section id="content">
+
+			<div id="section-about" class="content-wrap pb-0">
+                
+                <!-- begin ABOUT US --> 
+
+				<div  class="container clearfix">
+
+					<div class="row justify-content-center mb-5">
+						<div class="col-lg-7 center">
+							<div class="heading-block">
+								<h3 class="text-white nott mb-3 t600 ls0">About Us</h3>
+								<span class="text-white-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate corporis, facilis assumenda optio consequuntur amet iure, quidem animi nam inventore!</span>
+							</div>
+						</div>
+
+						<div class="col-lg-8">
+
+							<div class="row align-items-center">
+								<div class="mb-4 mb-sm-0">
+									<h3 class="text-white">Our Mission</h3>
+									<p class="text-white mb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi deserunt doloremque facilis rem, in recusandae, vel.</p>
+									
+								</div>
+                               
+							</div>
+						</div>
+					</div>
+
+				</div>
+                <!-- end ABOUT US-->
+
+				<div class="clear"></div>
+
+                <!--begin OUR PROJECTS -->
+				<div id="section-projects" class="section section-gradient mt-4">
+
+					<div class="container">
+						<div class="divcenter" style="max-width: 1200px; padding: 50px 0 50px;">
+							<div class="d-flex justify-content-between align-items-center mb-5 dark">
+								<h2 class="display-4 t700">Projects</h2>
+							</div>
+                            
+							<div class="row row-eq-height justify-content-center">
+								<div class="col-md-6">
+                                    
+									<div class="bg-white shadow-sm d-flex justify-content-center flex-column rounded">
+										<div class="testimonial nobg noshadow noborder p-0">
+											<div class="d-flex flex-row mb-4 align-items-center">
+												<div class="testi-image">
+													<a href="#"><img class="rounded" src="images/projects/short-circuit-vr-icon-round.png" alt="Customer Testimonails"></a>
+                                                    
+												</div>
+                                                
+												<h2 class="ml-1 mb-0">Short Circuit VR</h2>
+											</div>
+												<div class="center">
+                                                    <img class="rounded" src="images/projects/short-circuit-vr-thumbnail.jpg" alt="profile picture of Stefan Bauwens">
+                                                    <p class="mb-5 mt-5">Electronics simulator in VR.</p> 
+                                                    <a href="#" class="button button-rounded t500 m-0">Visit Website</a>
+                                                </div>
+											
+										</div>
+									</div>
+								</div>
+                                
+								<div class="col-md-6">
+									<div class="bg-white shadow-sm d-flex justify-content-center flex-column rounded">
+										<div class="testimonial nobg noshadow noborder p-0">
+											<div class="d-flex flex-row mb-4 align-items-center">
+												<div class="testi-image">
+													<a href="#"><img class="rounded" src="images/projects/short-circuit-3d-icon-round.png" alt="Customer Testimonails"></a>
+                                                    
+												</div>
+                                                
+												<h2 class="ml-1 mb-0">Short Circuit 3D</h2>
+											</div>
+												<div class="center">
+                                                    <img class="rounded" src="images/projects/short-circuit-3d-thumbnail.jpg" alt="profile picture of Stefan Bauwens">
+                                                    <p class="mb-5 mt-5">3D electronics game.</p>
+                                                    <a href="#" class="button button-rounded t500 m-0">Visit Website</a>
+                                                </div>
+											
+										</div>
+									</div>
+								</div>
+                                
+							</div>
+							<div class="grid-bg d-none d-md-block">
+								<img src="images/dot-grid-orange.png" alt="Dot Image">
+							</div>
+						</div>
+					</div>
+				</div>
+                <!--end PROJECTS -->
+                
+                <div class="clear"></div>
+                
+                
+                <!-- begin TEAM -->
+				<div id="section-team" class="section p-0 mb-0" style="margin-top: 0px; !important">
+					<div class="container">
+                        <h2 class="center display-4 t700 mt-5">Team</h2>
+						<div class="row justify-content-between mb-4" style="padding: 50px 80px 160px;">
+                            
+							<div class="col-lg-5 col-md-6 mb-0 mb-md-5 center">
+                                <img src="images/team/stefan-bauwens-round.png" alt="profile picture of Stefan Bauwens">
+								<h3 class="mt-3 mb-1">Stefan Bauwens</h3>
+                                <p class="mb-5">Co-founder / Technical Director</p>    
+							</div>
+							<div class="col-lg-5 col-md-6 mb-0 mb-md-5 center">
+                                <img src="images/team/cindy-ho-round.png" alt="profile picture of Cindy Ho">
+                                
+                                <h3 class="mt-3 mb-1">Cindy Ho</h3>
+                                
+								<p class="mb-5">Co-founder / Game Director</p>     
+                                <!--<a target="_blank" href="https://icons8.com" class="btn btn-sm p-0 btn-link"><u>illustration by Ouch.pics</u> <i class="icon-line-arrow-right"></i></a>-->
+								
+							</div>
+						</div>
+					</div>
+					<div class="clear"></div>
+					<svg class="svg-curve" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1463 188.03">
+						<path style="fill:#FFF;" d="M-.5,288.5s297-175,792-97,599,52,671,25v143H-.5Z" transform="translate(0 -171.47)"/></svg>
+				</div>
+
+                <!-- end TEAM -->
+				
+                
+				<div class="clear"></div>
+
+                <!--start CONTACT -->
+                <div id="section-contact" class="container clearfix">
+
+					<div class="row justify-content-center mb-5 mt-5">
+                        <div class="col-sm-8">
+								<div class="heading-block nobottomborder mb-4">
+									<h2 class="t600 ls0 nott mb-3 text-white" style="font-size: 44px; line-height: 1.3">Contact Us</h2>
+									<p class="dark">Phosfluorescently develop customized relationships vis-a-vis B2C infomediaries.</p>
+								</div>
+								<a href="#" class="button button-rounded t500 m-0">Get In Touch</a>
+							</div>
+					</div>
+
+				</div>
+                <!--end CONTACT -->
+			</div>
+
+		</section><!-- #content end -->
+
+		<!-- Footer
+		============================================= -->
+		<footer id="footer" class="nobg noborder">
+
+			<div class="container">
+
+				<!-- Footer Widgets
+				============================================= -->
+				<div class="footer-widgets-wrap pb-4 clearfix">
+
+					<div class="container">
+
+                        <div class="row">
+                            
+							<div class="col-md-2">
+                                <h4 class="ls0 mb-4 nott">Projects</h4>
+
+								<ul class="list-unstyled iconlist ml-0">
+									<li class="mb-2"><a href="#">Short Circuit VR</a></li>
+									<li class="mb-2"><a href="#">Short Circuit 3D</a></li>
+								</ul> 
+							</div>
+                            
+							<div class="col-md-2">
+								<h4 class="ls0 mb-4 nott">Social Media</h4>
+								<div>
+									<div class="d-flex">
+										<a href="#" class="social-icon si-small si-facebook" title="Facebook">
+											<i class="icon-facebook"></i>
+											<i class="icon-facebook"></i>
+										</a>
+
+										<a href="#" class="social-icon si-small si-twitter" title="twitter">
+											<i class="icon-twitter"></i>
+											<i class="icon-twitter"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+                            <div class="col-md-8 fright">
+							<h4 class="tright">contact@koijam.be</h4>
+						</div>
+						</div>
+                        
+						
+
+						
+
+					</div>
+
+				</div><!-- .footer-widgets-wrap end -->
+
+			</div>
+
+			<!-- Copyrights
+			============================================= -->
+			<div id="copyrights" class="nobg">
+
+				<div class="container clearfix">
+                    
+					<div class="row justify-content-between align-items-center">
+						<div class="col-md-6 text-black-50">
+							Copyrights &copy; 2019 All Rights Reserved by KoiJam.
+						</div>
+
+						<div class="col-md-6 d-md-flex flex-md-column align-items-md-end mt-4 mt-md-0">
+							<div class="copyrights-menu copyright-links text-black-50 clearfix">
+                                <ul class="one-page-menu" data-easing="easeInOutExpo" data-speed="1100" data-offset="65">
+								<a href="#" data-href="#section-about">About Us</a>/<a href="#" data-href="#section-projects">Projects</a>/<a href="#" data-href="#section-team">Team</a>/<a href="#" data-href="#section-contact">Contact</a>
+                                </ul>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+			</div><!-- #copyrights end -->
+
+		</footer><!-- #footer end -->
+
+	</div><!-- #wrapper end -->
+
+	<!-- Go To Top
+	============================================= -->
+	<div id="gotoTop" class="icon-angle-up"></div>
+
+	<!-- External JavaScripts
+	============================================= -->
+	<script src="js/jquery.js"></script>
+	<script src="js/plugins.js"></script>
+
+	<!-- DatePicker JS -->
+	<script src="js/components/datepicker.js"></script>
+
+	<!-- Footer Scripts
+	============================================= -->
+	<script src="js/functions.js"></script>
+
+	<script>
+
+		jQuery('.home-date').datepicker({
+			autoclose: true,
+			startDate: "today",
+		});
+	</script>
+
+
 </body>
 </html>
