@@ -11717,7 +11717,7 @@ body:not(.device-touch) #gotoTop {
 
 .stretched #gotoTop { bottom: 30px; }
 
-#gotoTop:hover { background-color: #1ABC9C; }
+#gotoTop:hover { background-color: #f05b25; } /*EDIT*/
 
 
 /* ----------------------------------------------------------------
