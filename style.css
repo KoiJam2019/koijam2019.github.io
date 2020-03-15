@@ -135,19 +135,19 @@ dl, dt, dd, ol, ul, li {
 }
 
 ::selection {
-	background: #f05b25; /*EDIT*/
+	background: #F25424; /*EDIT*/
 	color: #FFF;
 	text-shadow: none;
 }
 
 ::-moz-selection {
-	background: #f05b25; /* Firefox */ /*EDIT*/
+	background: #F25424; /* Firefox */ /*EDIT*/
 	color: #FFF;
 	text-shadow: none;
 }
 
 ::-webkit-selection {
-	background: #f05b25; /* Safari */ /*EDIT*/
+	background: #F25424; /* Safari */ /*EDIT*/
 	color: #FFF;
 	text-shadow: none;
 }
@@ -169,7 +169,7 @@ body {
 
 a {
 	text-decoration: none !important;
-	color: #f05b25; /*EDIT*/
+	color: #F25424; /*EDIT*/
 }
 
 a:hover { color: #222; }
@@ -192,7 +192,7 @@ h3,
 h4,
 h5,
 h6 {
-	color: #2D3142; /*EDIT*/
+	color: #333333; /*EDIT*/
 	font-weight: 600;
 	line-height: 1.5;
 	margin: 0 0 30px 0;
@@ -963,6 +963,7 @@ html[xmlns] .slider-wrap {display: block;}
 	position: relative;
 	background-color: #FFF;
 	border-bottom: 1px solid #F5F5F5;
+    padding-top: 15px;
 }
 
 #header .container { position: relative; }
@@ -1034,10 +1035,10 @@ body.stretched #header.full-header .container {
 #logo {
 	position: relative;
 	float: left;
-	font-family: 'Raleway', sans-serif;
-	font-size: 36px;
-	line-height: 100%;
-	margin-right: 40px;
+	/*font-family: 'Raleway', sans-serif;*/
+	/*font-size: 36px;*/
+	/*line-height: 100%;*/
+	margin-left: 25px;
 }
 
 #header.full-header #logo {
@@ -1070,7 +1071,7 @@ body.stretched #header.full-header .container {
 
 .header-extras {
 	float: right;
-	margin: 30px 0 0;
+	margin-bottom: 10px;
 }
 
 .header-extras li {
@@ -3528,7 +3529,7 @@ body.stretched .container-fullwidth .breadcrumb { right: 60px !important; }
 #content {
 	position: relative;
 	overflow: hidden;
-	background-color: #4F5D75; /*EDIT*/
+	background-color: #1F5C7F; /*EDIT*/
 }
 
 #content p { line-height: 1.8; }
@@ -6584,7 +6585,7 @@ body:not(.device-sm):not(.device-xs) .countdown.countdown-large.coming-soon .cou
 	font-size: 14px;
 	height: 40px;
 	line-height: 40px;
-	background-color: #f05b25; /*EDIT*/
+	background-color: #E6522C; /*EDIT*/
 	color: #FFF;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -6613,7 +6614,7 @@ body:not(.device-touch) .button {
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 }
 
-.button.button-dark:hover { background-color: #f05b25; } /*EDIT*/
+.button.button-dark:hover { background-color: #E6522C; } /*EDIT*/
 
 .button.button-mini {
 	padding: 0 14px;
