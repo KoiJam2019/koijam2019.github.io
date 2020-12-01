@@ -132,3 +132,9 @@ h6 {
     font-size: 60px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .ld-fancy-heading h2 {
+    font-size: 40px!important;
+  }
+}
