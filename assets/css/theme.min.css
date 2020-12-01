@@ -100,7 +100,7 @@
 /* 1. BASE
 */
 /* 1.1. Base */
-:root {  --color-primary: #e66450; --color-red-bg: #da786e; --color-secondary: #bab7d3; --color-beige:#faf5f5; --color-black: #3a3a3a; --color-gray: #737480; --color-font: var(--color-gray); --color-link: #e66450; --color-link-hover: #181b31; --color-gradient-start: #4fda91; --color-gradient-stop: #34dbc5; --color-img-holder: #efefef; }
+:root {  --color-primary: #e66450; --color-red-bg: #da786e; --color-secondary: #bab7d3; --color-beige:#faf5f5; --color-black: #3a3a3a; --color-gray: #737480; --color-lightgray: #8B8B8C; --color-font: var(--color-gray); --color-link: #e66450; --color-link-hover: #181b31; --color-gradient-start: #4fda91; --color-gradient-stop: #34dbc5; --color-img-holder: #efefef; }
 
 @font-face { font-family: 'Glacial Indifference'; src: url("../fonts/GlacialIndifference-Regular.woff2") format("woff2"), url("../fonts/GlacialIndifference-Regular.woff") format("woff"); font-weight: normal; font-display: swap; font-style: normal; }
 @font-face { font-family: 'Glacial Indifference'; src: url("../fonts/GlacialIndifference-Bold.woff2") format("woff2"), url("../fonts/GlacialIndifference-Bold.woff") format("woff"); font-weight: bold; font-display: swap; font-style: normal; }
